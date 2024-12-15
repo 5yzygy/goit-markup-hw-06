@@ -31,9 +31,47 @@ ul li
     align-items: baseline;
 }
 
+.team-section .container
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-section .container .people-list .person .person-desc .social-media-list
+{
+    padding: 0;
+}
+
+.portfolio-section .container
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-section .container .portfolio-list
+{
+    padding: 0;
+}
+
 .header .container
 {
     justify-content: space-between;
+}
+
+.footer .container
+{
+    display: flex;
+    gap: 80px;
+}
+
+.footer .container .footer-wrapper
+{
+    margin-right: 0;
+}
+
+.footer .container .footer-social-media .footer-smedia-list
+{
+    padding: 0;
 }
 
 .navbar
@@ -612,6 +650,11 @@ ul li
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 16px;
+}
+
+.modal-menu
+{
+    display: none;
 }
 
 .form-wrapper
