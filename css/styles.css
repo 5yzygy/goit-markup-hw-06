@@ -739,3 +739,93 @@ ul li
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 767px)
+{
+    /* For mobile screens */
+    .container
+    {
+        width: 100%;
+    }
+
+    .offer-section .container .offer-list
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .offer-section .container .offer-list .offer-list-element .svg-container
+    {
+        display: none;
+    }
+
+    .team-section .container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-section .container .people-list
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-section .container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .footer .container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .container .footer-wrapper
+    {
+        margin-right: 0;
+    }
+
+    .footer .container .footer-form-wrapper .footer-form
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .container .footer-social-media .footer-smedia-list
+    {
+        padding: 0;
+    }
+
+    .team-section .container .people-list .person .person-desc .social-media-list
+    {
+        padding: 0;
+    }
+
+    .header .container .navbar .navbar-list
+    {
+        display: none;
+    }
+
+    .header .container .email-and-telephone
+    {
+        display: none;
+    }
+
+    .header .container .navbar
+    {
+        padding: 16px;
+    }
+
+    .header .container .navbar .logo
+    {
+        margin: 0;
+        text-decoration: none;
+    }
+}
